@@ -1,3 +1,4 @@
+#include "pch.h"
 #include "gtest/gtest.h"
 #include "../MyFunctions/T03_ContainsBadWords.h"
 

@@ -13,54 +13,42 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="T01">
-      <UniqueIdentifier>{abe06341-d81c-4a38-8b2c-e83f5dae130b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="T02">
-      <UniqueIdentifier>{c97e8758-f40d-4960-befa-8a1406ec070c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="T03">
-      <UniqueIdentifier>{4a5a256c-0774-4899-b8a7-19de69007686}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="T04">
-      <UniqueIdentifier>{6f322ecd-71b3-47f0-a326-3f4ad8f6697e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="T05">
-      <UniqueIdentifier>{591d859d-20ca-4ec8-b37d-4f7ca3d0c15f}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="T01_IsValidEmail.h">
-      <Filter>T01</Filter>
-    </ClInclude>
-    <ClInclude Include="T02_CalculateShipping.h">
-      <Filter>T02</Filter>
-    </ClInclude>
-    <ClInclude Include="T03_ContainsBadWords.h">
-      <Filter>T03</Filter>
+    <ClInclude Include="T05_IsStrongPassword.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="T04_PassedExam.h">
-      <Filter>T04</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="T05_IsStrongPassword.h">
-      <Filter>T05</Filter>
+    <ClInclude Include="T03_ContainsBadWords.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="T02_CalculateShipping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="T01_IsValidEmail.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="T01_IsValidEmail.cpp">
-      <Filter>T01</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="T02_CalculateShipping.cpp">
-      <Filter>T02</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="T03_ContainsBadWords.cpp">
-      <Filter>T03</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="T04_PassedExam.cpp">
-      <Filter>T04</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="T05_IsStrongPassword.cpp">
-      <Filter>T05</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>

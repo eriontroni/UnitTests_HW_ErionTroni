@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{a0f55559-71b3-4708-8437-630278d8ed79}</ProjectGuid>
+    <ProjectGuid>{6c3dcc21-89f0-4137-b9a6-6edf580831da}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <ConfigurationType>Application</ConfigurationType>
@@ -99,6 +99,11 @@
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\MyFunctionsTest\T01_IsValidEmailTests.cpp" />
+    <ClCompile Include="..\MyFunctionsTest\T02_CalculateShippingTests.cpp" />
+    <ClCompile Include="..\MyFunctionsTest\T03_ContainsBadWordsTests.cpp" />
+    <ClCompile Include="..\MyFunctionsTest\T04_PassedExamTests.cpp" />
+    <ClCompile Include="..\MyFunctionsTest\T05_IsStrongPasswordTests.cpp" />
     <ClCompile Include="test.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -106,6 +111,11 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyFunctions\MyFunctions.vcxproj">
+      <Project>{453f42de-d981-4bae-9a9d-d52cb69abb04}</Project>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

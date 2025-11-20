@@ -1,3 +1,4 @@
+ï»¿#include "pch.h"
 #include "gtest/gtest.h"
 #include "../MyFunctions/T02_CalculateShipping.h"
 
@@ -9,7 +10,7 @@ TEST(CalculateShippingTests, ZeroWeight_ReturnsZero)
 TEST(CalculateShippingTests, SmallWeight_UsesBaseSmall)
 {
     double result = CalculateShipping(0.5, false, 1);
-    EXPECT_GT(result, 0.0);   // thjesht me u siguru qe s’eshte zero
+    EXPECT_GT(result, 0.0);   // thjesht me u siguru qe sâ€™eshte zero
 }
 
 TEST(CalculateShippingTests, MediumWeight_UsesBaseMedium)
@@ -22,7 +23,7 @@ TEST(CalculateShippingTests, HeavyWeight_CostIncreases)
 {
     double a = CalculateShipping(3.0, false, 1);
     double b = CalculateShipping(10.0, false, 1);
-    EXPECT_GT(b, a); // më e rëndë ? më shtrenjtë
+    EXPECT_GT(b, a); // mÃ« e rÃ«ndÃ« â†’ mÃ« shtrenjtÃ«
 }
 
 TEST(CalculateShippingTests, Express_IsMoreExpensive)
